@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-c -Wall
 LIBS=-lpthread
 
-LDFLAGS=-Wl
+LDFLAGS=-W
 
 SOURCES=test_pthread.c
 
