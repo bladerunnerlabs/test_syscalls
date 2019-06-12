@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <pthread.h>
+#include <unistd.h>
 
 void * test_thread(void * message)
 {
 	printf("We are in thread\n");
-
+	sleep(15);
 	return NULL;
 }
 

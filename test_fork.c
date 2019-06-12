@@ -5,5 +5,6 @@ int main()
 {
 	fork();
 	fork();
+	fork();
 	return 0;
 }
